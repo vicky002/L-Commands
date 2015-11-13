@@ -4,3 +4,4 @@
 `export PATH=$PATH":$HOME/bin" `
 `git clone "https://github.com/vicky002/L-Commands.git"`
 `sudo cp -r ~/L-Commands/* ~/bin/`
+`sudo chmod -R 755 ~/bin/`
