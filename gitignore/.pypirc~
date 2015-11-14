@@ -1,0 +1,8 @@
+[distutils]
+index-servers=pypi
+
+servers = pypi
+[server-login]
+repositoy = https://pypi.python.org/pypi
+username:tvicky002
+password:Tvicky002@pooja
