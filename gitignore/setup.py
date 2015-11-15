@@ -4,7 +4,7 @@ __author__ = 'vikesh'
 from setuptools import setup, find_packages
 
 
-version = '0.0.1'
+version = '0.0.2'
 
 
 setup(
@@ -16,15 +16,15 @@ setup(
     author_email='tvicky002@gmail.com',
     license='MIT',
     keywords=['gitignore','git','github','command line','cli'],
-    url='http://github.com/vicky002/L-Commands/gitignore',
+    url='http://github.com/vicky002/L-Commands',
     packages = find_packages(),
     package_data={
         'GitIgnore': ['data/*.gitignore', 'data/Global/*.gitignore']
     },
-    install_require=[
+    install_requires=[
         'docopt>=0.6.1',
     ],
-    entry_point={
+    entry_points={
         'console_scripts': [
             'gitignore=gitignore:main',
         ],

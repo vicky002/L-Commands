@@ -1,7 +1,66 @@
 #####=== JetBrains ===#####
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
-*.iml
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+gitignore/env/
+gitignore/build/
+gitignore/develop-eggs/
+gitignore/dist/
+gitignore/downloads/
+gitignore/eggs/
+gitignore/lib/
+gitignore/lib64/
+gitignore/parts/
+gitignore/sdist/
+gitignore/var/
+gitignore/*.egg-info/
+gitignore/.installed.cfg
+gitignore/*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+gitignore/*.manifest
+gitignore/*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+gitignore/.tox/
+gitignore/.coverage
+gitignore/.cache
+gitignore/nosetests.xml
+gitignore/coverage.xml
+
+# Translations
+gitignore/*.mo
+gitignore/*.pot
+
+# Django stuff:
+gitignore/*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+gitignore/target/
+
+# Custon
+gitignore/dev/
+gitignore/.DS_Store
+
+gitignore/*.iml
 
 ## Directory-based project format:
 .idea/

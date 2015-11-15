@@ -32,6 +32,12 @@ fi
 # show help for no agruments
 if [ "$1" == "readme" ]; then
     readme
+elif [ "$!" == "tets" ]; then
+    readme
+elif [ "$1" == "prod" ]; then
+    readme
+
+    python setup.py sdist upload -r pypi
 else
     usage;
 fi
